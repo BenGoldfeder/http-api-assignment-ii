@@ -69,9 +69,9 @@
                 xhr.onload = () => handleResponse(xhr); 
             }
             
+            xhr.send();
             e.preventDefault();
             return false;
-            xhr.send();
         };
 
 
